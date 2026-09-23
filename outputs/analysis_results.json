@@ -3,8 +3,8 @@
     "snow_requests_2018_2025": 226985,
     "daily_rows": 2919,
     "closure_requests_2021_2025": 2513718,
-    "closure_grouped_rows": 206701,
-    "community_service_grouped_rows": 202388
+    "closure_grouped_rows": 206702,
+    "community_service_grouped_rows": 202403
   },
   "regression": {
     "seasonal_baseline": {
@@ -24,7 +24,7 @@
       "mae": 77.75203272905796,
       "rmse": 120.82669499135332,
       "r2": 0.240773217665055,
-      "poisson_deviance": 88.23026014741423,
+      "poisson_deviance": 88.23026014741421,
       "max_depth": 9,
       "min_samples_leaf": 10
     }
@@ -32,7 +32,7 @@
   "regression_top_features": [
     {
       "feature": "doy_cos",
-      "importance_mae": 16.466410464543266
+      "importance_mae": 16.466410464543262
     },
     {
       "feature": "temperature_2m_mean_lag1",
@@ -44,31 +44,31 @@
     },
     {
       "feature": "temperature_2m_mean",
-      "importance_mae": 2.348694916240931
+      "importance_mae": 2.3486949162409316
     },
     {
       "feature": "snowfall_sum",
-      "importance_mae": 1.5089214316616903
+      "importance_mae": 1.5089214316616886
     },
     {
       "feature": "apparent_temperature_min",
-      "importance_mae": 0.7976251699570884
+      "importance_mae": 0.7976251699570899
     },
     {
       "feature": "weekend",
-      "importance_mae": 0.6859545886670098
+      "importance_mae": 0.6859545886670105
     },
     {
       "feature": "snowfall_sum_lag1",
-      "importance_mae": 0.5676563727789873
+      "importance_mae": 0.5676563727789865
     },
     {
       "feature": "temperature_2m_min",
-      "importance_mae": 0.5645123608626111
+      "importance_mae": 0.5645123608626115
     },
     {
       "feature": "snowfall_sum_lag2",
-      "importance_mae": 0.5168940897850607
+      "importance_mae": 0.5168940897850611
     }
   ],
   "weather_correlations": [
@@ -128,7 +128,7 @@
     "random_forest": {
       "roc_auc": 0.851207729468599,
       "pr_auc": 0.128488333132296,
-      "brier": 0.022636254011266684,
+      "brier": 0.02263625401126668,
       "precision": 0.044642857142857144,
       "recall": 1.0,
       "f1": 0.08547008547008547,
@@ -151,12 +151,12 @@
     "random_forest_weather_only": {
       "roc_auc": 0.8898550724637682,
       "pr_auc": 0.14182761629241858,
-      "brier": 0.02552557405785969,
+      "brier": 0.025525574057859685,
       "precision": 0.09302325581395349,
       "recall": 0.8,
       "f1": 0.16666666666666666,
       "balanced_accuracy": 0.8057971014492754,
-      "threshold": 0.11012804023489067,
+      "threshold": 0.11012804023489066,
       "max_depth": null,
       "min_samples_leaf": 3
     },
@@ -210,26 +210,26 @@
     "train_requests": 1525235,
     "validation_requests": 506838,
     "test_requests": 481645,
-    "test_slow_prevalence": 0.01986317723634627,
+    "test_slow_prevalence": 0.019707460889244154,
     "logistic": {
-      "roc_auc": 0.9248387326517638,
-      "pr_auc": 0.29929758594639555,
-      "brier": 0.08159091697673578,
-      "precision": 0.44616596638655465,
-      "recall": 0.3551792620466186,
-      "f1": 0.3955071873363208,
-      "balanced_accuracy": 0.673122148954668,
-      "threshold": 0.9588318692772538
+      "roc_auc": 0.9252108982536427,
+      "pr_auc": 0.2980663513177872,
+      "brier": 0.08149695724014457,
+      "precision": 0.44390243902439025,
+      "recall": 0.3547197640117994,
+      "f1": 0.3943315570650583,
+      "balanced_accuracy": 0.6728931095825539,
+      "threshold": 0.9587705795149716
     },
     "decision_tree": {
-      "roc_auc": 0.8369542901375066,
-      "pr_auc": 0.19723954733183086,
-      "brier": 0.10575558347978471,
-      "precision": 0.1329687724852497,
-      "recall": 0.7726560050172467,
-      "f1": 0.22689114320354825,
-      "balanced_accuracy": 0.8352771168498975,
-      "threshold": 0.9131441469477378,
+      "roc_auc": 0.8387806845020771,
+      "pr_auc": 0.19772765715310853,
+      "brier": 0.10572055081216578,
+      "precision": 0.13224924449561087,
+      "recall": 0.7745469869363675,
+      "f1": 0.22592342203921087,
+      "balanced_accuracy": 0.8361883579294918,
+      "threshold": 0.9129810901135239,
       "max_depth": 10
     }
   },
@@ -242,15 +242,15 @@
     },
     {
       "service_name": "Roads - NEW Signal, Left Turn or Pedestrian Light Request",
-      "n": 1240,
-      "slow": 569,
-      "slow_rate": 0.4588709677419355
+      "n": 1209,
+      "slow": 538,
+      "slow_rate": 0.44499586435070304
     },
     {
       "service_name": "Roads - Sidewalk - Curb and Gutter Repair",
       "n": 5087,
-      "slow": 1377,
-      "slow_rate": 0.2706899941026145
+      "slow": 1373,
+      "slow_rate": 0.269903676036957
     },
     {
       "service_name": "Bylaw - Vehicle Concerns",
@@ -261,14 +261,14 @@
     {
       "service_name": "Roads - Backlane Maintenance",
       "n": 4885,
-      "slow": 737,
-      "slow_rate": 0.15087001023541455
+      "slow": 734,
+      "slow_rate": 0.1502558853633572
     },
     {
       "service_name": "Roads - Roadway Maintenance",
       "n": 3931,
-      "slow": 486,
-      "slow_rate": 0.12363266344441617
+      "slow": 480,
+      "slow_rate": 0.12210633426609005
     },
     {
       "service_name": "Roads - Fence - Noise Barrier - Retaining Wall Repair",
@@ -277,22 +277,22 @@
       "slow_rate": 0.1028971028971029
     },
     {
-      "service_name": "Roads - Signs - Parking",
-      "n": 3053,
-      "slow": 314,
-      "slow_rate": 0.10284965607599082
-    },
-    {
       "service_name": "Roads - Signs - Missing - Damaged",
       "n": 6320,
-      "slow": 646,
-      "slow_rate": 0.10221518987341772
+      "slow": 645,
+      "slow_rate": 0.10205696202531646
+    },
+    {
+      "service_name": "Roads - Signs - Parking",
+      "n": 3053,
+      "slow": 311,
+      "slow_rate": 0.1018670160497871
     },
     {
       "service_name": "Roads - Street Cleaning Annual Program",
       "n": 1165,
-      "slow": 88,
-      "slow_rate": 0.07553648068669527
+      "slow": 85,
+      "slow_rate": 0.07296137339055794
     }
   ],
   "closure_fast_services_2025": [
@@ -361,14 +361,14 @@
     {
       "source": "App",
       "n": 89924,
-      "slow": 3604,
-      "slow_rate": 0.04007828833236956
+      "slow": 3589,
+      "slow_rate": 0.03991148080601397
     },
     {
       "source": "Other",
       "n": 391710,
-      "slow": 5963,
-      "slow_rate": 0.015222996604630976
+      "slow": 5903,
+      "slow_rate": 0.015069822062239922
     },
     {
       "source": "Web",
@@ -380,7 +380,7 @@
   "clustering": {
     "eligible_communities": 261,
     "selected_k": 3,
-    "silhouette": 0.28163981666343574,
+    "silhouette": 0.2816407687159293,
     "ward_agreement_ari": 0.7321429998264937,
     "composition_only_ari": 0.41200452704125273,
     "temporal_window_ari": 0.41090485886566136
@@ -390,14 +390,14 @@
       "cluster": 1,
       "communities": 8,
       "median_annual_requests": 606.9,
-      "median_annual_cv": 0.8195953243203475,
+      "median_annual_cv": 0.8195762990241429,
       "profile": "OS - Waste and Recycling Services (+30.1%); AT - Property Tax Account Inquiry (+4.6%); Other services (+4.0%); WRS - Recycling - Blue Cart (+2.3%)",
       "examples": "GLACIER RIDGE, HASKAYNE, RANGEVIEW, HOMESTEAD, ALPINE PARK"
     },
     {
       "cluster": 2,
       "communities": 178,
-      "median_annual_requests": 2011.5,
+      "median_annual_requests": 2011.6,
       "median_annual_cv": 0.08300687098072437,
       "profile": "WRS - Cart Management (+1.6%); UEP - Waste and Recycling Services (+1.2%); CFOD - Finance (+1.1%); OS - Waste and Recycling Services (+0.8%)",
       "examples": "SADDLE RIDGE, BOWNESS, CRANSTON, MAHOGANY, CORNERSTONE"

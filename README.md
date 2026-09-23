@@ -1,4 +1,4 @@
-git oring -# Calgary 311 и историски временски податоци
+# Calgary 311 и историски временски податоци
 
 Овој проект ги поврзува официјалните барања за јавни услуги во Калгари со дневни историски временски податоци. Целта е преку класични методи од податочно рударење и статистичко моделирање да се одговори на четири практични прашања: дневна snow/ice побарувачка, невообичаено висока побарувачка, затворање на барањата во рок од 7 дена и профили на градските заедници.
 
@@ -9,18 +9,33 @@ Calgary_311_Project.ipynb       водена анализа и објаснув�
 README.md                       документација и упатство за репродукција
 requirements.txt               потребни Python библиотеки
 environment.yml                алтернативна conda околина
-work/
-  download_project_data.py     преземање и агрегирање од официјалните API извори
-  analyze_project.py           чистење, моделирање, евалуација и извештаи
-  data/raw/                    локално преземени податоци, се создава при извршување
-  data/processed/              аналитички табели, се создава при извршување
+code/
+  download_data.py             главна команда за преземање
+  run_analysis.py              главна команда за целата анализа
+  calgary311/
+    api_client.py              HTTP/Socrata pagination и CSV запишување
+    download_311.py            Calgary 311 агрегирани податоци
+    download_weather.py        Open-Meteo ERA5 податоци
+    download_pipeline.py       оркестрација и data manifest
+    snow_weather.py            подготовка и модели за Q1–Q2
+    closure_model.py           класификација за Q3
+    community_clusters.py      карактеристики и кластерирање за Q4
+    evaluation.py              заеднички метрики и thresholds
+    reporting_utils.py         HTML/SVG помошни функции
+    reporting.py               резултати, графици и HTML/Markdown извештаи
+    pipeline.py                редослед на аналитичките чекори
+data/
+  raw/                         оригинални агрегирани API податоци
+  processed/                   обработени аналитички табели
+work/                           compatibility entry points за старите команди
 outputs/
   analysis_results.json        структурирани резултати
   model_metrics.csv            споредливи test метрики
-  figures/                     графици
   calgary_311_project_report.html
+figures/                        графици
 paper/                          семинарска работа
 presentation/                   PowerPoint презентација
+SUBMISSION_CHECKLIST.md         final push и Moodle checklist
 ```
 
 ## Извори на податоци
@@ -32,17 +47,20 @@ presentation/                   PowerPoint презентација
 
 ## Репродукција
 
-Потребен е Python 3.12 или понов. Во PowerShell:
+Потребен е Python 3.11 или понов. На Windows се препорачува Python 3.11, бидејќи поновите CPython 3.14 scientific wheels може да бидат блокирани од Smart App Control пред да добијат доволна reputation. Провери дека `python --version` покажува 3.11, а потоа во PowerShell:
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python work\download_project_data.py
-python work\analyze_project.py
-jupyter lab Calgary_311_Project.ipynb
+$venvPath = Join-Path $env:USERPROFILE ".venvs\calgary311-py311"
+python -m venv $venvPath
+$python = Join-Path $venvPath "Scripts\python.exe"
+& $python -m pip install --upgrade pip
+& $python -m pip install -r requirements.txt
+& $python code\download_data.py
+& $python code\run_analysis.py
+& $python -m jupyterlab Calgary_311_Project.ipynb
 ```
+
+Околината намерно е во кратката патека `%USERPROFILE%\.venvs\calgary311-py311`, а не во длабоката папка на проектот. JupyterLab содржи датотеки со долги имиња и локална `.venv` во долга Windows патека може да го надмине ограничувањето за должина на патеки.
 
 На macOS или Linux:
 
@@ -51,12 +69,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python work/download_project_data.py
-python work/analyze_project.py
+python code/download_data.py
+python code/run_analysis.py
 jupyter lab Calgary_311_Project.ipynb
 ```
 
-Преземањето бара интернет. Анализата ги чита датотеките од `work/data/raw`, ги запишува подготвените табели во `work/data/processed` и ги обновува резултатите во `outputs`.
+Преземањето бара интернет. Анализата ги чита датотеките од `data/raw`, ги запишува подготвените табели во `data/processed` и ги обновува резултатите во `outputs`. Старите команди во `work/` остануваат како кратки wrappers, но новите `code/` команди се препорачани.
 
 ## Методологија
 
@@ -92,7 +110,7 @@ Target е дали барањето не е затворено во рок од 
 
 - Poisson регресијата постигнува MAE 67.7 и R2 0.296 на 2025. Температурата од претходниот ден и сезонскиот момент се најсилни сигнали, а снегот додава корисна информација.
 - Weather-only random forest за high-demand денови има PR-AUC 0.142, recall 80.0% и precision 9.3% при prevalence 2.4%. Моделот е можен широк ранен аларм, но произведува многу лажни позитиви.
-- Logistic regression за барања што не се затвораат во 7 дена има PR-AUC 0.299 наспроти baseline 0.020. Видот на услугата и одговорната агенција носат најмногу сигнал.
+- Logistic regression за барања што не се затвораат во 7 дена има PR-AUC 0.298 наспроти baseline 0.020. Видот на услугата и одговорната агенција носат најмногу сигнал.
 - Избрани се 3 профили на заедници. Silhouette е 0.282, agreement со Ward е 0.732, а временската стабилност е умерена со ARI 0.411.
 
 ## Улога на LLM

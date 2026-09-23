@@ -1,0 +1,26 @@
+{
+  "calgary_dataset_id": "iahh-g8bj",
+  "calgary_analysis_window": [
+    "2018-01-01",
+    "2025-12-31"
+  ],
+  "closure_window": [
+    "2021-01-01",
+    "2025-12-31"
+  ],
+  "snow_services": [
+    "Bylaw - Snow and Ice on Sidewalk",
+    "Roads - Snow and Ice Control",
+    "Parks - Snow and Ice Concerns - WAM",
+    "Z - Roads - Snow & Ice Control",
+    "CT - Snow and Ice Control",
+    "Roads - Pathway Snow and Ice Concerns",
+    "Parks - Snow and Ice Concerns - GIS"
+  ],
+  "weather_model": "ERA5",
+  "weather_coordinates": {
+    "latitude": 51.0447,
+    "longitude": -114.0719
+  },
+  "weather_timezone": "America/Edmonton"
+}

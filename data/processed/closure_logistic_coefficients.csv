@@ -1,0 +1,261 @@
+feature,coefficient_for_slow,odds_ratio
+cat__service_name_311 Contact Us,7.295566339006617,1473.7513074453154
+cat__agency_responsible_OS - Mobility,5.305375181542465,201.41655601381512
+cat__service_name_WATS - Tap Water Sampling Program,5.045716069560181,155.35550472610262
+cat__service_name_MISSING,4.717819146830155,111.92389672748497
+cat__service_name_CBS - RIM - Property Research,4.2725732301893204,71.70591424516233
+cat__agency_responsible_TRAN - Roads,3.8740010624664367,48.134590817488444
+cat__service_name_Recreation - Athletic Park Booking Application,3.7774013005808267,43.70232483538294
+cat__service_name_CBS Inspection - Residential Improvement Project - RIP,3.15080012125559,23.354743734032933
+cat__service_name_CBS Inspection - Commercial or Multi-Family,3.0782050255654507,21.719381651255915
+cat__service_name_CBS Inspection - Electrical,2.9568874397467697,19.237999038414486
+cat__service_name_CBS Inspection - Heating and Ventilation,2.948939211335754,19.085697095000103
+"cat__service_name_Roads - NEW Signal, Left Turn or Pedestrian Light Request",2.8481453639251204,17.25574901051445
+cat__agency_responsible_CFOD - Information Technology,2.815505907824729,16.701623125186924
+cat__agency_responsible_DCMO - Real Estate and Development Services,2.8087190266429203,16.588654977815303
+cat__service_name_CBS Inspection - SCP - New Home,2.779926676028429,16.11783908072393
+cat__service_name_CBS Inspection - Furnace Replacement,2.658926562877645,14.280951164873708
+cat__service_name_WATS - Spills Entering Storm System,2.6205212202185044,13.74288478804602
+cat__service_name_CBS Inspection - Plumbing,2.542068605426286,12.70592735469386
+cat__agency_responsible_UEP - Environmental and Safety Management,2.531030107205594,12.566444256476228
+cat__agency_responsible_DCMO - Fleet Services,2.4126067436469785,11.163022388695813
+cat__service_name_CBS Inspection - Gas,2.412226259494857,11.158775843509941
+cat__service_name_CBS Concern - Building Without a Permit,2.385830788562871,10.86808799853889
+cat__agency_responsible_OTHER_AGENCY,2.384523727534572,10.853892023787596
+cat__agency_responsible_CS - Calgary Recreation,2.278962944283442,9.766546702738742
+cat__agency_responsible_PD - Calgary Growth Strategies,2.2665284409082886,9.645856461464493
+cat__service_name_CN - Subsidized Programs - Fair Entry,2.260450102360446,9.587403508693608
+cat__agency_responsible_TRAN - Calgary Transit,2.195426910653656,8.983835533371577
+cat__agency_responsible_TRAN - Transportation Infrastructure,2.083651172605765,8.033748030947446
+cat__service_name_CT - Transit Safety / Public Etiquette,2.06784813987501,7.907788341785559
+cat__service_name_CSC - Calgary.ca Feedback and Issue Report,2.0504793633604086,7.771625646117051
+cat__service_name_CBS - Urgent Safety Response,2.0019605773073277,7.4035571251872945
+cat__service_name_CFD - Provincial Accreditation or Licence Inspection - FHB,1.9982980825657919,7.376491230750514
+cat__agency_responsible_UEP - Water Services,1.9730377538444592,7.192492357259986
+cat__agency_responsible_TRAN - Transportation Planning,1.911477231081333,6.763072043163648
+cat__agency_responsible_CS - Calgary Community Standards,1.898086560333361,6.673113618213804
+cat__service_name_WATS - Cross Connection Inquiries,1.8870333952140257,6.59976072913613
+cat__agency_responsible_MISSING,1.8798460287651633,6.552495888633454
+cat__agency_responsible_CS - Calgary Fire,1.8349316962068012,6.264706227623053
+cat__service_name_Corporate - Encampment Concerns,1.746273241239531,5.733196572537017
+cat__service_name_CBS - Infill Construction Concerns,1.7459993022552351,5.731626241588421
+cat__service_name_CN - Registered Social Worker Letter,1.6960653256504215,5.45245150871644
+cat__agency_responsible_UEP - Water Resources,1.688202718077134,5.409749118250742
+cat__service_name_Finance - ONLINE TIPP Agreement Request,1.6777765250387995,5.353639045170114
+cat__service_name_Finance - TIPP Agreement Request,1.6308531145892535,5.10823076636061
+cat__service_name_CBS - Planning and Development - After Hours SR,1.6235176988940943,5.070896867462581
+cat__service_name_Bylaw - Property Maintenance Concerns,1.5992459953020934,4.949299222281071
+cat__service_name_CN - Senior Services Home Maintenance Inquiry,1.596387718446722,4.9351729528755
+cat__agency_responsible_CFOD - Human Resources,1.5662987685591603,4.788890559185036
+cat__service_name_Recreation - Playfield (D & E) Community Fields Application,1.5532964813984604,4.727027083837045
+cat__service_name_Bylaw - Waste and Recycling Infractions,1.5461910574384334,4.693558597040161
+cat__service_name_WRS - Programs,1.5447186718384698,4.686652954081492
+cat__agency_responsible_Tranc - Calgary Transit,1.5429725284297722,4.678476526601849
+cat__service_name_Corporate - Graffiti Concerns,1.4948848627399942,4.458823146612348
+cat__service_name_Bylaw - Material on Public Property,1.4557967993342216,4.287898699622398
+cat__service_name_Finance - Property Tax Account Inquiry,1.4387971898347427,4.215622173090336
+cat__agency_responsible_OS - Facility Management,1.3776522542577823,3.9655805152053354
+cat__agency_responsible_CFOD - Assessment,1.3298801148163906,3.780590123658383
+cat__agency_responsible_DCMO - Corporate Analytics and Innovation,1.2906854039130196,3.6352773353708256
+cat__service_name_ASMT - Assessment General Concern - After Hours and Overflow,1.2765064338726815,3.5840965498162913
+cat__service_name_Parks - Maintenance - WAM,1.2685096858326699,3.5555497257618023
+cat__service_name_Parks - General Concerns,1.2575538067278602,3.516808164263121
+cat__agency_responsible_CS - Calgary Neighbourhoods,1.2342143653524864,3.435678272251251
+cat__agency_responsible_CS - Calgary Parks,1.2064856758910154,3.3417201049103022
+cat__service_name_CT - Bus Route or Bus Schedule,1.1570211917053208,3.180445214987278
+cat__service_name_Roads - Sidewalk - Curb and Gutter Repair,1.1099538708123693,3.0342184251763187
+cat__service_name_TP - Community Traffic - Cycling - Pedestrian Inquiries,1.0991138035661865,3.0015049220330976
+cat__agency_responsible_UEP - Waste and Recycling Services,1.0538133217575494,2.8685690648389497
+cat__agency_responsible_Uepc - Waste and Recycling Services,1.04243061397202,2.8361021128751576
+cat__agency_responsible_CFOD - Finance,1.0364158782208195,2.8190949063020043
+cat__service_name_WATS - Cross Connection Tester Support - ONLINE,1.0285158305105337,2.796911661760151
+cat__service_name_Parks - Weed Control Issues - WAM,1.021378165983715,2.7770193214864047
+cat__service_name_WATS - Water Meter Issues,1.010037066192491,2.74570278587876
+cat__service_name_Parks - Special Events,0.9921680747996503,2.697075599701178
+cat__service_name_RSP - Subsidized Programs - Fair Entry,0.9606115019263343,2.6132940192490097
+cat__service_name_CT - Advertising and Communications,0.9589841463783149,2.6090447192269424
+cat__service_name_WRS - New Service - Carts,0.9514653339226979,2.589501364772741
+cat__service_name_WATS - Water Quality,0.9358842681206053,2.5494668735611157
+cat__service_name_Parks - Infrastructure - WAM,0.9285403279380484,2.530812324133789
+cat__service_name_Law - Risk Management and Claims,0.9264622966618847,2.525558677481698
+cat__service_name_CBS - Code Inquiry,0.9090730298232762,2.482020707513798
+cat__service_name_Bylaw - Noise Concerns,0.8741302471602816,2.396789772443643
+cat__service_name_WATS - Water Meter Installation Request,0.8232418317941942,2.2778723598763237
+cat__service_name_CFD - Life Safety Systems Inspection - FHB,0.8129779962624355,2.254612225904084
+cat__service_name_WATS - Water Pressure Issues,0.8072206331618104,2.241668900134468
+cat__service_name_CT - Lost Property,0.7892402049251723,2.2017229323400995
+cat__service_name_WATS - Water Off-On Appointment,0.7782079047880353,2.1775663604184157
+cat__service_name_Customer Service & Communications - General Concerns,0.7686351858064857,2.1568205847497763
+cat__service_name_CT - Bus or CTrain Vehicle Maintenance,0.76685562984791,2.152985814932347
+cat__service_name_Parks - Natural Area Maintenance - WAM,0.7401513652072998,2.0962527902196504
+cat__service_name_Parks - Tree Concern - WAM,0.7069911816830782,2.027880546113192
+cat__service_name_CBS - DCI - Vehicle Infractions,0.6827595541472852,1.9793322773074762
+cat__service_name_Animal / Bylaw - Information Request,0.6808874720169107,1.9756302710321518
+cat__service_name_WRS - Brochures,0.6614919155771869,1.93768103553765
+cat__service_name_Compliance - Business Licence Concern,0.656936312662087,1.9288738065144702
+cat__service_name_Parks - Pest Concerns - WAM,0.6551253347221859,1.9253838197004103
+cat__service_name_Parks - Irrigation Maintenance - WAM,0.6248556107237707,1.8679762222245149
+cat__service_name_WATS - Manhole Concerns,0.5605770500186368,1.7516830174264475
+cat__agency_responsible_DCMO - Facility Management,0.5445534159938193,1.7238383718059411
+cat__service_name_Roads - Roadway Maintenance,0.5351311155920688,1.7076721300186892
+cat__service_name_WRS - Cart Management,0.5145232335197993,1.6728407572439417
+cat__service_name_WATS - Sewer Maintenance,0.5138056046708966,1.6716407091030074
+cat__service_name_Bylaw - Permit - Noise Exemption,0.473543858740293,1.605674405613802
+cat__service_name_Bylaw - Vehicle Concerns,0.47002759086282925,1.6000383390466808
+cat__agency_responsible_PICS - Customer Service and Communications,0.4661629001325423,1.5938666192853859
+cat__service_name_Bylaw - Disturbance and Behavioural Concerns,0.452708909020939,1.5725663600014528
+cat__service_name_AS - Animal Noise,0.4497981487384329,1.5679956516444493
+cat__service_name_OTHER_SERVICE,0.42368809762611737,1.5275850620650675
+cat__service_name_Parks - Garbage - WAM,0.4183453527130393,1.5194453283681568
+cat__service_name_Bylaw - Temporary Signs Infraction on City Property,0.36663985037959473,1.4428781735012255
+cat__service_name_Parks - Pathway Concern - WAM,0.3496498768164093,1.4185707871143434
+cat__service_name_Roads - Fence - Noise Barrier - Retaining Wall Repair,0.3230507400268809,1.3813354381247633
+cat__service_name_Opinions on Business Units,0.3119403392097564,1.3660731895922027
+cat__service_name_CT - Bus Stops,0.2944270862593829,1.342357083525197
+cat__service_name_Finance - ONLINE Property Tax Document Request,0.281504362773194,1.3251217775146804
+cat__service_name_WRS - Compost - Green Cart,0.2739961259728157,1.315209707070697
+cat__service_name_CFD - Business Licence Inspection - FHB,0.25615627627255344,1.291954614015678
+cat__service_name_CBS Inspection - Cancellation or Reschedule,0.18871822774396785,1.2077006080104082
+cat__agency_responsible_OS - Calgary Transit,0.15809994949588319,1.1712832580285384
+cat__service_name_AS - Animal Bite,0.15021732436791166,1.1620867650593363
+cat__service_name_WATS - Hydrant Control Unit - HCU Inspections,0.148412019738721,1.1599907369967037
+cat__service_name_WATS - Drainage Bylaw,0.14211621381326314,1.1527106016478597
+cat__service_name_WRS - Recycling - Blue Cart,0.1365124300510465,1.1462691258709625
+cat__service_name_Bylaw - Tree - Shrub Infraction,0.12905186760099302,1.1377491349535063
+cat__service_name_HR - Recruitment and Program Inquiry,0.11944268544917147,1.126868656245437
+cat__service_name_AS - Lost and Found Animal,0.11096420742034654,1.117354913123994
+cat__service_name_WRS - Waste - Residential,0.09651656112143525,1.1013278202165346
+cat__service_name_CAI - City Online - Concern,0.08788003209928437,1.0918571263633858
+cat__service_name_WATS - Urgent Water Reconnect,0.06184539313957144,1.0637978615657413
+cat__service_name_Stewardship of City Owned Land,0.019425541533201064,1.0196154450314203
+num__day_of_week,0.002027489003723576,1.0020295457493285
+cat__service_name_WRS - Employee - Complaint Compliment,-0.004267996435854454,0.9957410985172572
+cat__service_name_DBBS Inspection - Heating and Ventilation,-0.01933716554830771,0.9808485981294125
+cat__service_name_DBBS Inspection - Cancellation or Reschedule,-0.019897276136645162,0.9802993682731321
+cat__service_name_DBBS Inspection - SCP - New Home,-0.020525637406592925,0.9796835796062907
+cat__service_name_DBBS Inspection - Plumbing,-0.023541718047527405,0.9767332264157197
+cat__service_name_DBBS Inspection - Furnace Replacement,-0.02387439220014296,0.9764083465598521
+cat__service_name_DBBS Inspection - Gas,-0.025049407715302965,0.9752617253842728
+cat__service_name_Parks - Planning Inquiries,-0.029344836789767834,0.9710815420815695
+cat__agency_responsible_LL - Law,-0.03866322716260054,0.9620746552066121
+cat__service_name_DBBS Inspection - Commercial or Multi-Family,-0.04071026486959138,0.9601072664569474
+cat__service_name_DBBS Inspection - Residential Improvement Project - RIP,-0.041707285497637935,0.959150496745978
+cat__service_name_DBBS Inspection - Electrical,-0.054981268357622834,0.9465028773408404
+cat__service_name_DBBS - RIM - Property Research,-0.07284391471235345,0.9297459383630874
+cat__source_Other,-0.07963396152340613,0.9234543043368193
+cat__service_name_CFD - Fire Code and General Inquiries - FHB,-0.1049814473000215,0.9003412261919644
+cat__source_App,-0.13523366981506993,0.8735117745038046
+cat__service_name_CFD - Fire Station Tour,-0.17391390374156063,0.8403692471917654
+cat__source_Phone,-0.17576915171282753,0.8388115992092058
+cat__agency_responsible_OS - Fleet and Inventory,-0.1795641364081247,0.8356343546384267
+cat__agency_responsible_CFOD - Customer Services and Communications,-0.18779925729866806,0.8287810622840964
+cat__service_name_Roads - Street Cleaning Annual Program,-0.20733840721835575,0.812744564817379
+cat__service_name_WATS - Catch Basin Concerns,-0.2330446452787377,0.7921182083966698
+cat__service_name_AS - Animal Licence - Concerns on Existing,-0.24770167962008866,0.7805927752803196
+cat__agency_responsible_LL - City Manager's Office,-0.25948421962926344,0.7714493816551762
+cat__service_name_GFL - Black Cart Collection,-0.27823177402505084,0.7571213201209728
+cat__service_name_Bylaw - Long Grass - Weeds Infraction,-0.2792755761933664,0.7563314475524178
+cat__service_name_Roads - Backlane Maintenance,-0.279372456904225,0.7562581771734347
+cat__agency_responsible_AO - Calgary Housing,-0.28756501718584176,0.7500877965878806
+cat__service_name_CT - Transit Pass Programs,-0.29445463308157005,0.744937741104752
+cat__agency_responsible_CS - Community Strategies,-0.33084604441486853,0.7183157492496164
+num__month,-0.35555983623148996,0.7007810107697041
+cat__agency_responsible_PDS - Community Planning,-0.36613084886725733,0.6934120630903973
+cat__agency_responsible_Corporate Wide Service Requests,-0.447768914333072,0.6390523428071854
+cat__service_name_AS - Animal at Large,-0.45828716849004797,0.6323658545829892
+cat__service_name_Roads - Debris on Backlane,-0.46403299633345646,0.6287428079174718
+cat__service_name_Roads - Debris on Street/Sidewalk/Boulevard,-0.46842710916165337,0.6259861021532367
+cat__agency_responsible_LLSS - City Clerk's Office,-0.4727699014145042,0.6232734690228038
+cat__agency_responsible_PD - Community Planning,-0.48632038535710964,0.6148847756737524
+cat__service_name_WRS - Landfill - Disposal Information,-0.5012679825068278,0.6057620768240679
+cat__service_name_WATS - Construction Inquiry,-0.5023409884457409,0.605112439112958
+cat__agency_responsible_PD - Calgary Building Services,-0.5144603222502477,0.5978231394219151
+cat__agency_responsible_CS - Emergency Management and Community Safety,-0.5146736995809097,0.5976955911246589
+cat__agency_responsible_Partnerships,-0.5167763382227732,0.596440173585929
+cat__service_name_Finance - Tax Account Maintenance,-0.5467329964248574,0.578837789812205
+cat__service_name_City Clerk's - Municipal Election Question,-0.5636364616079,0.5691356562365033
+cat__agency_responsible_OS - Water Services,-0.5749661627388788,0.5627239095206766
+cat__agency_responsible_Affiliated Organizations,-0.5942812729214119,0.5519591313135456
+cat__agency_responsible_DCMO - Supply,-0.6145494956889357,0.540884511234283
+cat__service_name_WRS - Commercial Collection Services,-0.697345238604724,0.49790537074147284
+cat__service_name_Roads - Pothole Maintenance,-0.7208628671637882,0.4863324345724967
+cat__service_name_CT - CTrain Stations,-0.7780246842497439,0.45931240282937497
+cat__service_name_CT AC - Trip Feedback - Checker Taxi,-0.7837004927256607,0.4567128179519983
+cat__service_name_Roads - Streetlight - General Inquiry,-0.7879626053234942,0.4547703988419265
+cat__service_name_CT AC - Trip Feedback - CTA,-0.8266670545632206,0.43750503942581925
+cat__agency_responsible_CS - Partnerships,-0.8312590734310112,0.43550061373253895
+cat__agency_responsible_OSC - Calgary Transit,-0.8385174771740804,0.4323510187914396
+cat__service_name_Active Living Program Application,-0.8528173567169699,0.4262124463301289
+cat__agency_responsible_CS - Calgary Emergency Management Agency,-0.8618368887349529,0.42238549412709075
+cat__location_type_MISSING,-0.8666079450176007,0.4203750689011928
+cat__service_name_AS - Animal Chase - Threat,-0.9242014638211447,0.39684819021895384
+cat__service_name_RSP - Registered Social Worker Letter,-0.9242604228271065,0.39682479313388197
+cat__agency_responsible_PDS - Climate and Environment,-0.9268369356299649,0.39580368498786506
+cat__agency_responsible_IS - Utilities Delivery,-0.9415203625400634,0.39003439067038503
+cat__agency_responsible_OS - Water Resources,-0.9767045982611168,0.3765499398173963
+cat__service_name_After Hours Office of the Councillors - General Inquiry,-0.9796428281992395,0.3754451733348087
+cat__service_name_Compliance - Taxi/Limousine/TNC (Ride Sharing) Concern,-1.0063880805252479,0.3655368878534252
+cat__service_name_Finance - Credit and Collection Inquiries,-1.0195071262597593,0.360772711755827
+cat__agency_responsible_CS - Calgary Housing,-1.0292925447751906,0.35725961636949066
+cat__agency_responsible_TRAN - Green Line,-1.0322723411137065,0.35619663998583156
+cat__service_name_Roads - Traffic Signal Timing Inquiry,-1.0571981861510402,0.34742787615533244
+cat__service_name_WATS - Sewage Back-up,-1.0593663425124897,0.3466754142178404
+cat__service_name_Parks - Wildlife Management,-1.1953389295916825,0.3026013762388834
+cat__agency_responsible_AO - Calgary Parking Authority,-1.2187292892831725,0.29560555751696793
+cat__service_name_After Hours Transit - General Concerns,-1.257291001170536,0.28442348668833795
+cat__service_name_UEP - Odour Inquiries,-1.269390463779912,0.2810028510035056
+cat__agency_responsible_IS - Real Estate and Development Services,-1.2698949927862473,0.2808611126728676
+cat__service_name_WATR - Erosion and Sediment Control,-1.276834637806328,0.2789187835831634
+cat__location_type_Community Centrepoint,-1.2934866113820602,0.2743126920604096
+cat__agency_responsible_IS - Public Spaces Delivery,-1.2940739949615756,0.27415161260178644
+cat__service_name_Roads - Detour Inquiry,-1.2952738912662884,0.27382285637103165
+cat__agency_responsible_OSC - Waste and Recycling Services,-1.320662387997062,0.2669584133391558
+cat__agency_responsible_CPFS - Finance,-1.3438072755470345,0.2608506453350122
+cat__service_name_Roads - Snow and Ice Control,-1.4157366563406915,0.24274672665241506
+"cat__agency_responsible_PICS - Collaboration, Analytics and Innovation",-1.4494783611825122,0.23469268098116186
+cat__agency_responsible_IS - Capital Priorities and Investments,-1.476142414927841,0.22851751604635484
+cat__agency_responsible_CS - Recreation and Social Programs,-1.493570180023706,0.2245694691997848
+cat__service_name_Recreation - Athletic Park Application,-1.5110793550701134,0.22067166628922008
+cat__service_name_Evacuated Residents Registration Form,-1.5127728890399126,0.22029826759711582
+cat__service_name_Roads Permits - Requests and Inquiries,-1.5641095058036838,0.20927428776144352
+cat__service_name_CT - Fair Entry Inquiry,-1.6307280760308478,0.19578697441826753
+cat__service_name_CT - Snow and Ice Control,-1.7095514876156248,0.18094693135952594
+cat__service_name_WATS - Water Outage,-1.7632599798345026,0.17148491424442874
+cat__source_Web,-1.7694577732708168,0.1704253729691248
+cat__service_name_AS - Pick Up Stray,-1.786192892568866,0.16759701647257827
+cat__agency_responsible_LLSS - Law,-1.842051974749769,0.1584918708885018
+cat__service_name_WATS - Water Main Break or Leak,-1.8635138182802369,0.15512658494769896
+cat__agency_responsible_LL - City Clerk's,-1.9425116350476,0.14334347078629817
+cat__service_name_Parks - Venue Bookings and Inquiries,-2.1831627921233063,0.1126845685737054
+cat__agency_responsible_Elected Officials,-2.191455421311734,0.11175398107265981
+cat__agency_responsible_PICS - Human Resources,-2.319354016745243,0.09833708920396954
+cat__service_name_Roads - Streetlight Damage,-2.445627397848216,0.0866717401766607
+cat__service_name_WATS - Service and Main Valve Issues,-2.4864498284053607,0.08320483428920923
+cat__service_name_Roads - Boulevard Maintenance,-2.5159976431962066,0.08078228010023912
+cat__service_name_Parks - Parks and Open Spaces Bookings,-2.635062214567436,0.0717145075827288
+cat__service_name_Recreation - Arena Booking Application,-2.6722595669038203,0.06909592192849667
+cat__service_name_AS - Animal Damaging Pet or Property,-2.747402659643605,0.0640941194416621
+cat__service_name_Roads - Street Paving Program,-2.751520712827822,0.06383071916940707
+cat__service_name_WRS - Debris in Backlane,-2.809378903913804,0.060242397092271825
+cat__service_name_Roads - Local Improvement Inquiry,-2.8947839455123896,0.055310973987983104
+cat__service_name_Roads - Employee Complaint - Compliment,-3.065115574734356,0.04664845017066924
+cat__service_name_Roads - Signs - Missing - Damaged,-3.1934506545215844,0.04103004587183061
+cat__service_name_Corporate - Face Covering Concerns,-3.2539275863905814,0.03862221745378925
+cat__service_name_WATS - Fire Hydrant,-3.3723693342420167,0.03430825324927731
+cat__service_name_Parks - Mowing Request - WAM,-3.3788001644855576,0.03408833059721835
+cat__service_name_Bylaw - Snow and Ice on Sidewalk,-3.464184839273178,0.03129850834524205
+cat__service_name_Roads - Signs - Parking,-3.5362478390184777,0.029122394246838382
+cat__service_name_Parks - Wildlife Sightings,-3.594103066211102,0.02748532463985167
+cat__service_name_Recreation - School Facility Booking Application,-3.686765655737783,0.02505290085057247
+cat__service_name_WATS - Emergency Water Temporary Off,-3.7099689060085574,0.024478284387384815
+cat__service_name_Parks - Snow and Ice Concerns - WAM,-3.938382204590536,0.01947970344218947
+cat__agency_responsible_Recreation and Social Programs,-4.268463911433261,0.014003276914516838
+cat__agency_responsible_OS - Parks and Open Spaces,-4.418568100248419,0.012051476441948601
+cat__service_name_Roads - Traffic or Pedestrian Light Repair,-4.529752520902752,0.010783344394888648
+cat__agency_responsible_OS - Waste and Recycling Services,-4.685193299050985,0.009230950105870326
+cat__service_name_Roads - Signs - Traffic and Roadmarking,-4.818151703919108,0.008081710737519942
+cat__service_name_Roads - Dead Animal Pick-Up,-5.171974567797316,0.005673355327230996
+cat__agency_responsible_CPFS - Assessment and Tax,-5.6080535991242035,0.0036682022057741995
+cat__service_name_Roads - Detour Urgent (Safety) Concerns,-5.972522628928526,0.0025478061360271545
+"cat__agency_responsible_PDS - Development, Business and Building Services",-6.184802641451394,0.002060508171411127
+cat__service_name_Roads - Streetlight Maintenance,-6.27412226496095,0.0018844443709391447

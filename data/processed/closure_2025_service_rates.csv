@@ -1,0 +1,90 @@
+service_name,n,slow,slow_rate
+311 Contact Us,5643,2659,0.4712032606769449
+"Roads - NEW Signal, Left Turn or Pedestrian Light Request",1209,538,0.44499586435070304
+Roads - Sidewalk - Curb and Gutter Repair,5087,1373,0.269903676036957
+Bylaw - Vehicle Concerns,2016,320,0.15873015873015872
+Roads - Backlane Maintenance,4885,734,0.1502558853633572
+Roads - Roadway Maintenance,3931,480,0.12210633426609005
+Roads - Fence - Noise Barrier - Retaining Wall Repair,1001,103,0.1028971028971029
+Roads - Signs - Missing - Damaged,6320,645,0.10205696202531646
+Roads - Signs - Parking,3053,311,0.1018670160497871
+Roads - Street Cleaning Annual Program,1165,85,0.07296137339055794
+Roads - Debris on Street/Sidewalk/Boulevard,7154,241,0.03368744758177244
+Roads - Signs - Traffic and Roadmarking,3315,109,0.03288084464555053
+Roads - Pothole Maintenance,5318,116,0.02181271154569387
+Roads - Snow and Ice Control,5240,70,0.013358778625954198
+WATS - Service and Main Valve Issues,2451,32,0.013055895552835577
+OTHER_SERVICE,135580,1335,0.009846585042041599
+Roads - Traffic Signal Timing Inquiry,3059,28,0.009153318077803204
+Roads - Detour Inquiry,2192,17,0.007755474452554745
+Corporate - Graffiti Concerns,11835,58,0.004900718208702999
+Recreation - Athletic Park Booking Application,1648,7,0.00424757281553398
+Bylaw - Material on Public Property,9021,38,0.0042123933045116945
+Bylaw - Waste and Recycling Infractions,3147,13,0.004130918334922148
+Bylaw - Disturbance and Behavioural Concerns,3452,14,0.004055619930475087
+Bylaw - Property Maintenance Concerns,1748,7,0.004004576659038902
+Recreation - School Facility Booking Application,1922,5,0.0026014568158168575
+DBBS - RIM - Property Research,5384,13,0.0024145616641901933
+Bylaw - Noise Concerns,6291,15,0.002384358607534573
+AS - Animal Noise,2384,4,0.0016778523489932886
+AS - Pick Up Stray,3266,5,0.0015309246785058174
+CFD - Fire Code and General Inquiries - FHB,1325,2,0.0015094339622641509
+Corporate - Encampment Concerns,8459,12,0.0014186074004019387
+CFD - Business Licence Inspection - FHB,4123,4,0.0009701673538685423
+Bylaw - Snow and Ice on Sidewalk,10772,9,0.0008354994430003714
+Active Living Program Application,1201,1,0.0008326394671107411
+Parks - Parks and Open Spaces Bookings,1282,1,0.00078003120124805
+CT - Bus Stops,3604,2,0.0005549389567147614
+Recreation - Arena Booking Application,2091,1,0.00047824007651841227
+Opinions on Business Units,2259,1,0.0004426737494466578
+Bylaw - Long Grass - Weeds Infraction,12139,5,0.0004118955432902216
+AS - Animal at Large,3196,1,0.00031289111389236547
+CT - Bus Route or Bus Schedule,3403,1,0.0002938583602703497
+RSP - Subsidized Programs - Fair Entry,6610,1,0.000151285930408472
+CT - Transit Pass Programs,2723,0,0.0
+CT - Lost Property,4400,0,0.0
+CT - CTrain Stations,1060,0,0.0
+CFD - Fire Station Tour,760,0,0.0
+Bylaw - Tree - Shrub Infraction,3230,0,0.0
+Bylaw - Permit - Noise Exemption,756,0,0.0
+After Hours Transit - General Concerns,1055,0,0.0
+CT AC - Trip Feedback - CTA,1269,0,0.0
+Parks - Wildlife Management,2480,0,0.0
+Parks - Venue Bookings and Inquiries,1436,0,0.0
+CT AC - Trip Feedback - Checker Taxi,1261,0,0.0
+Finance - Credit and Collection Inquiries,915,0,0.0
+Parks - Wildlife Sightings,2990,0,0.0
+HR - Recruitment and Program Inquiry,1324,0,0.0
+Law - Risk Management and Claims,1201,0,0.0
+Roads - Dead Animal Pick-Up,5264,0,0.0
+Roads - Detour Urgent (Safety) Concerns,1634,0,0.0
+GFL - Black Cart Collection,4889,0,0.0
+Roads - Streetlight Maintenance,4420,0,0.0
+UEP - Odour Inquiries,785,0,0.0
+WATS - Catch Basin Concerns,2999,0,0.0
+WATS - Cross Connection Inquiries,783,0,0.0
+Roads - Traffic or Pedestrian Light Repair,3786,0,0.0
+WATS - Cross Connection Tester Support - ONLINE,777,0,0.0
+WATS - Emergency Water Temporary Off,1060,0,0.0
+WATS - Fire Hydrant,1052,0,0.0
+WATS - Manhole Concerns,811,0,0.0
+WATS - Sewage Back-up,6740,0,0.0
+WATS - Sewer Maintenance,4198,0,0.0
+WATS - Spills Entering Storm System,920,0,0.0
+WATS - Urgent Water Reconnect,734,0,0.0
+WATS - Water Main Break or Leak,2271,0,0.0
+WATS - Water Meter Installation Request,1053,0,0.0
+WATS - Water Meter Issues,2584,0,0.0
+WATS - Water Off-On Appointment,1311,0,0.0
+WATS - Water Outage,981,0,0.0
+WATS - Water Pressure Issues,1129,0,0.0
+WATS - Water Quality,771,0,0.0
+WRS - Cart Management,30667,0,0.0
+WRS - Commercial Collection Services,3518,0,0.0
+WRS - Compost - Green Cart,9813,0,0.0
+WRS - Debris in Backlane,4842,0,0.0
+WRS - Employee - Complaint Compliment,778,0,0.0
+WRS - New Service - Carts,9050,0,0.0
+WRS - Programs,3009,0,0.0
+WRS - Recycling - Blue Cart,11150,0,0.0
+WRS - Waste - Residential,11409,0,0.0

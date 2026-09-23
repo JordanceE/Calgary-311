@@ -1,3 +1,6 @@
 /.venv/
-/presentation/
-/paper/
+/.idea/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
